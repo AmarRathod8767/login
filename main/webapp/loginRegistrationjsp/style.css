@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+*{
+	   margin :0;
+   padding:0;
+  
+}
+#container
+{
+	background-color:red;
+	width:100px;
+	height:750px;
+}
+
+
+.imagegroup {
+   display: block;
+   width: 100vw;
+   height :100vh;
+   background-image:url("./login image.jpg");
+   background-repeat:no-repeat;
+   background-size :cover;
+
+  }
+.login-box-div
+{   POSITION : RELATIVE;
+	top : 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:#FFFFFF;
+	background:#0000009E;
+	padding:20px;
+	width:35%;
+	height:30%;
+	
+}
+.user-name
+{
+	background:#FFFFFF;
+	Margin:0px 5px 3px 0px;
+	padding:10px;
+	width:70%;
+}
+.teal
+{
+	color: #fff!important;
+    background-color: #009688!important;
+}
+.Xlarge
+{
+	font-size: 24px!important;
+}
+.button
+{
+border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    display: inline-block;
+    padding: 8px 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;	
+}
+.registrationcss
+{
+	width:100%;
+	height:650px;
+	background-color:#8080ff;
+	
+}
+.registrationtabcss
+{
+  padding-left:100px;	
+  margin-top:30px;
+	
+}
+
+
+
+
+
